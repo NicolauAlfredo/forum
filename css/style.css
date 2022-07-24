@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container>h2 {
+    background-color: #ccc;
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+}
+
+
+.thread {
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+
+.respostas {
+    display: none;
+    margin: 0 10px;
+}
+
+.respostas p {
+    font-size: 20px;
+    color: #333;
+}
+
+.respostas input {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(85, 132, 233);
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    background-color: #ccc;
+}
